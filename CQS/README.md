@@ -2,12 +2,13 @@
 
 PauliStrings are formatted as one of the following:
 
-* Text based: AKA 'PauliString' formats the Pauli String $\sigma_x \otimes
-  \sigma_y \otimes \sigma_z \otimes \sigma_I \otimes \sigma_I$ as `XYZII`
+* Text based: AKA 'PauliString' formats the Pauli String
+  $\sigma_x \otimes \sigma_y \otimes \sigma_z \otimes \sigma_I \otimes \sigma_I$
+  as `XYZII`
 
-* Tuple Bases: AKA (PauliString) formats $\sigma_x \otimes \sigma_y \otimes
-  \sigma_z \otimes \sigma_I \otimes \sigma_I$ as `(1,2,3,0,0)` where each
-  0,1,2,3 referes the the standard index of the Pauli matricies: $I$, $X$, $Y$,
+* Tuple Bases: AKA (PauliString) formats
+  $\sigma_x \otimes \sigma_y \otimes \sigma_z \otimes \sigma_I \otimes \sigma_I$
+  as `(1,2,3,0,0)` where each 0, 1, 2, 3 referes the the standard index of the Pauli matricies: $I$, $X$, $Y$,
   $Z$.
 
 # Usage:
